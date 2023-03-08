@@ -1,0 +1,18 @@
+<h1></h1>
+<table border="1" style="border-collapse: collapse">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tr ng-repeat="student in studentSearchCtrlAll.students">
+        <td>{{student.id}}</td>
+        <td>{{student.name}}</td>
+        <td>{{student.gender}}</td>
+        <td>{{student.city}}</td>
+    </tr>
+</table>
+<h4><a ui-sref="studentParent.students">Back to Students List</a></h4>

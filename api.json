@@ -1,0 +1,52 @@
+
+  {
+    "Students": [
+        {
+            "id": 1, "name": "Mark", "gender": "Male", "city": "London"
+        },
+        {
+           "id": 2, "name": "John", "gender": "Male", "city": "Chennai"
+        },
+        {
+            "id": 3, "name": "Sara", "gender": "Female", "city": "Sydney"
+        },
+        {
+            "id": 4, "name": "Tom", "gender": "Male", "city": "New York'"
+        },
+        {
+            "id": 5, "name": "Pam", "gender": "Male", "city": "Los Angeles"
+        },
+        {
+            "id": 6, "name": "Catherine", "gender": "Female", "city": "Chicago"
+        },
+        {
+            "id": 7, "name": "Mary", "gender": "Female", "city": "Houston"
+        },
+        {
+            "id": 8, "name": "Mike", "gender": "Male", "city": "Phoenix"
+        },
+        {
+            "id": 9, "name": "Rosie", "gender": "Female", "city": "Manchester"
+        },
+        {
+            "id": 10, "name": "Sasha", "gender": "Female", "city": "Hyderabad"
+        },
+        {
+            "id": 11, "name": "Jannie", "gender": "Female", "city": "Manchester"
+        },
+        {
+            "id": 12, "name": "John", "gender": "Male", "city": "Hyderabad"
+        },
+        {
+            "id": 13, "name": "Peter", "gender": "Male", "city": "Hyderabad"
+        }
+    ],
+    "courses": [
+        {"id":5, "name": "C#"},
+        {"id":1, "name": "C++"},
+        {"id":2, "name": "JS"},
+        {"id":3, "name": "Java"},
+        {"id":4, "name": "PHP"}
+    ]
+  }
+

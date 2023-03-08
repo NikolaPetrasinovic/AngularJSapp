@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Demo">
+<head>
+    <title></title>
+    <base href="/">
+    <script src="./angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.30/angular-ui-router.js"></script>
+    <script src="./script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+    
+</head>
+<body>
+    <table style="font-family: Arial">
+    <tr>
+        <td colspan="2" class="header">
+            <h1>
+                WebSite Header
+            </h1>
+        </td>
+    </tr>
+    <tr>
+        <td class="leftMenu">
+            <a ui-sref="home" ui-sref-active="activeState">Home</a>
+            <a ui-sref="courses" ui-sref-active="activeState">Courses</a>
+            <a ui-sref="studentParent.students" ui-sref-active="activeState">Students</a>
+        </td>
+        <td class="mainContent">
+            <ui-view></ui-view>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="footer">
+            <b>Website Footer</b>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
